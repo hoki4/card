@@ -12,31 +12,30 @@
     <main>
         <article class="profile-card">
 
-            <figure class="profile-card__figure">
-                <img class="profile-card__photo" src="../card/images/profile-image.jpg" alt="Фото профиля">
-            </figure>
+            <img class="profile-card__photo" src="images/profile-image.png" width="264" height="280" alt="Фото профиля">
 
             <header class="profile-card__header">
-                <h1 class="profile-card__name">Sophie Bennett</h1>
-                <span class="profile-card__verified" role="img" aria-label="Верифицированный аккаунт"></span>
+                <div class="profile-card__header-top">
+                    <h1 class="profile-card__name">Sophie Bennett</h1>
+                    <span class="profile-card__verified" role="img" aria-label="Верифицированный аккаунт"></span>
+                </div>
+                <p class="profile-card__description">
+                    Product Designer who focuses<br> on simplicity &amp; usability.
+                </p>
             </header>
-
-            <p class="profile-card__description">
-                Product Designer who focuses on simplicity &amp; usability.
-            </p>
-
-            <ul class="profile-card__stats" aria-label="Статистика профиля">
-                <li class="profile-card__stat">
-                    <span class="profile-card__stat-value">312</span>
-                </li>
-                <li class="profile-card__stat">
-                    <span class="profile-card__stat-value">48</span>
-                </li>
+            <section class="profile-card__bottom">
+                <ul class="profile-card__stats" aria-label="Статистика профиля">
+                    <li class="profile-card__stat">
+                        <span class="profile-card__stat-value">312</span>
+                    </li>
+                    <li class="profile-card__stat">
+                        <span class="profile-card__stat-value">48</span>
+                    </li>
+                </ul>
                 <button class="profile-card__button" type="button">
                     Follow
                 </button>
-            </ul>
-
+            </section>
         </article>
     </main>
 </body>
